@@ -3,19 +3,19 @@ pipeline {
     stages {
         stage('Clean') {
             steps {
-                 echo 'clean stage'
+                 echo 'stage'
             }
         }
         
         stage('Package') {
             steps {
-                echo 'package stage'
+                echo 'p stage'
             }
         }
         
         stage('Third') {
             steps {
-                echo 'third stage'
+                echo 't stage'
             }
         }
         
